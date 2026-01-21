@@ -760,14 +760,16 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 30px;
   }
 
   .hero-img img {
     width: 260px;
-    max-width: 80%;
     height: auto;
+    max-width: 80%;
     object-fit: contain;
+    object-position: center;
   }
 
   .hero-text {
@@ -846,7 +848,7 @@ main {
 
 @media (max-width: 400px) {
   .hero-img img {
-    width: 220px;
+    width: 230px;
   }
 
   .hero-text h1 {
