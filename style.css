@@ -749,19 +749,19 @@ main {
   }
 
   .hero {
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-    padding-top: 140px; /* gives space under mobile nav */
-    padding-bottom: 40px;
+    height: auto; 
+    min-height: calc(100vh - 80px);
   }
 
   .hero-img {
-    display: none;
+    width: min(280px, 85vw);
+    height: min(280px, 85vw);
+    aspect-ratio: 1 / 1;
+    margin-top: 20px;
   }
 
   .hero-img img {
-    display: none;
+    object-position: center top;
   }
 
   .hero-text {
