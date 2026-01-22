@@ -850,12 +850,6 @@ main {
 }
 
 @media (max-width: 800px) {
-  .hero-img {
-    display: none;
-  }
-}
-
-@media (max-width: 800px) {
   .hero {
     flex-direction: column;
     text-align: center;
@@ -864,8 +858,11 @@ main {
   }
 }
 
-@media (max-width: 400px) {
-  .hero-img img {
-    display: none;
+@media (max-width: 800px) {
+  .hero-img {
+    width: 220px;
+    height: 220px;
+    margin: 30px auto 0;
+    display: block;
   }
 }
